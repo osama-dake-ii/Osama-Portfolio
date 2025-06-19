@@ -1,0 +1,5 @@
+@import 'mixins';
+
+.button-magic {
+  @include magic-border(4px, #00f, 0.6s, 1); // width, color, duration, direction
+}

@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="css/osama's framework.css">
+  
+  <title>Osama's Portfolio</title>
+</head>
+<!-- back ground -->
+<div id="particles">
+  <div class="overlay"></div>
+  <div id="intro"></div>
+</div> 
+
+<!-- Preloader -->
+<div class="circle-animation"></div>
+
+<!-- <div id="preloader">
+  <div class="loader">Loading...</div>
+</div> -->
+
+<body>
+  <!-- header section -->
+  <header class="flex-center">
+    <ul>
+      <li class="button-animation" id="goToProfile">profile</li>
+      <li class="button-animation" id="goToSkill">skill</li>
+      <li class="button-animation" id="goToPortfolio">portfolio</li>
+      <li class="button-animation" id="goToCertificate">certificate</li>
+      <li class="button-animation" id="goToWork">work</li>
+      <li class="button-animation" id="goToContact">contact</li>
+    </ul>
+  </header>
+
+  <!-- banner section  -->
+  <div class="banner flex-center">
+    <h1 class="typing-text blinking-animation" id="typewriter"></h1>
+    <h5 class="typing-text blinking-animation" id="typewriter2"></h5>
+  </div>
+
+  <!-- profile section   -->
+  <section class="profile section flex-center" id="profile">
+    <h1>profile</h1>
+    <p>はじめまして！</p>
+    <div class="container flex-center">
+      <div>
+        <img src="media/pp3.png" alt="profile picture">
+      </div>
+      <div>
+        <p>オサマと申します。私は独学でフロントエンド開発を学んだエンジニアです。大学では日本語と英語を専攻していましたが、昔からITやテクノロジーの世界に強い関心がありました。
+          その好奇心からウェブ開発の勉強を始め、HTML、CSS、JavaScript、そして最新のフレームワークを独学で習得しています。使いやすく、見た目も美しいレスポンシブなユーザーインターフェースを作ることが得意です。
+          言語学習で培ったコミュニケーション力や発想力を活かしながら、グローバルな視点で課題に取り組むことができます。現在は、開発者としてさらに成長し、価値あるプロジェクトに携わりながら、日々学び続けたいと考えています。
+          生成AI関連の技術にも興味があり日々技術習得中です。本ポートフォリオサイトは、私の現在のITスキルや経験内容を見える化してまとめたいと考えフルスクラッチ開発しました。
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- SKILL SECTION   -->
+  <section class="section" id="skill">
+    <div class="container">
+      <h1>skill</h1>
+      <p>WEB関連を中心に幅広く技術習得に励んでおります。</p>
+      <p>これからも日々研鑽していきます！以下チャートは各スキルごとの得意度をレートで示しています。</p>
+      <h2>front-end</h2>
+      <hr>
+      <br>
+    <div class="section-set">
+
+      <!-- card -->
+      <div class="section-card">
+        <img src="media/html5-brands.svg" alt="skill-icon">
+        <div class="section-card-txt">
+          <h3>html5</h3>
+          <p>HTMLの独学をきっかけにオープン系開発に興味を持ちました。</p>
+        </div>
+      </div>
+      <!-- card -->
+
+      <div class="section-card">
+        <img src="media/css3-brands.svg" alt="skill-icon">
+        <div class="section-card-txt">
+          <h3>css3</h3>
+          <p>CSSの独学をきっかけにオープン系開発に興味を持ちました。</p>
+        </div>
+      </div>
+      <!-- card -->
+
+      <div class="section-card">
+        <img src="media/js-brands.svg" alt="skill-icon">
+        <div class="section-card-txt">
+          <h3 class="x">JavaScript</h3>
+          <p>JavaScriptの独学をきっかけにオープン系開発に興味を持ちました。</p>
+        </div>
+      </div>
+      <!-- card -->
+
+      <div class="section-card">
+        <img src="media/jquery_4096_black.png" alt="skill-icon" id="jq">
+        <div class="section-card-txt">
+          <h3 class="x">JQuery</h3>
+          <p>JavaScriptを学んだ後、jQueryを調べ始め、それを独学して、ポートフォリオ サイトで実践しました。</p>
+        </div>
+      </div>
+      <!-- card -->
+
+      <div class="section-card">
+        <img src="media/Python.png" alt="skill-icon">
+        <div class="section-card-txt">
+          <h3 class="x">python</h3>
+          <p>一般的な知識を持っており、CS50コースを通じてPythonを学んだ最初のプログラミング言語でした。</p>
+        </div>
+      </div>
+      <!-- card -->
+      
+      <div class="section-card">
+        <img src="media/react-icon-2048x1793-eq4a5voh.png" alt="skill-icon">
+        <div class="section-card-txt">
+          <h3>react</h3>
+          <p>最近、幅広い用途と信頼性を理由に、Reactを学び始めました。</p>
+        </div>
+      </div>
+      <!-- card -->
+
+      <div class="section-card">
+        <img src="media/sass.png" alt="skill-icon">
+        <div class="section-card-txt">
+          <h3>sass</h3>
+          <p>最近、Sassを身につけて始めました。Sassは時間の節約になります。</p>
+        </div>
+      </div>
+    </div>
+    
+      <h2>OS & tools</h2>
+      <hr>
+      <br>
+      <div class="section-set">
+
+        <!-- card -->
+        <div class="section-card">
+          <img src="media/linux-brands.svg" alt="skill-icon">
+          <div class="section-card-txt">
+            <h3 class="x">Linux(CentOS)</h3>
+            <p>インストールから環境設定、開発が可能です。主にCentOSを使用し、エディタはVimを使用しています</p>
+          </div>
+        </div>
+        <!-- card -->
+        <!-- card -->
+        <div class="section-card">
+          <img src="media/apple.svg" alt="skill-icon">
+          <div class="section-card-txt">
+            <h3 class="x">mac</h3>
+            <p>プライベートで主にプログラミングの独学で使用しています。</p>
+          </div>
+        </div>
+        <!-- card -->
+        <!-- card -->
+        <div class="section-card">
+          <img src="media/windows-brands.svg" alt="skill-icon">
+          <div class="section-card-txt">
+            <h3 class="x">windows</h3>
+            <p>インストールから環境設定、開発が可能。実務では、WindowsXP/7/10/11を使用しています。</p>
+          </div>
+        </div>
+        <!-- card -->
+        <!-- card -->
+        <div class="section-card">
+          <img src="media/github-brands.svg" alt="skill-icon">
+          <div class="section-card-txt">
+            <h3 class="x">GitHub</h3>
+            <p>バージョン管理でよく使用されるため、独学しました。</p>
+          </div>
+        </div>
+        <!-- card -->
+      </div>
+    </div>
+  </section>
+  
+  <!-- portfolio section   -->
+  <section class="gray-section" id="portfolio">
+    <div class="container">
+      <h1>portfolio</h1>
+      <p>制作物一覧です。随時アップロードしていきます。各制作物をクリックすると詳細を確認できます。</p>
+      <div class="section-set">
+
+        <!-- card -->
+        <div class="project-card section-card">
+          <img src="media/html5-brands.svg" alt="skill-icon">
+          <div class="project-card-txt section-card-txt">
+            <h3>osama mohamed portfolio site</h3>
+            <p>HTMLの独学をきっかけにオープン系開発に興味を持ちました。</p>
+          </div>
+        </div>
+        <!-- card -->
+      
+        <!-- card -->
+        <div class="project-card section-card">
+          <img src="media/html5-brands.svg" alt="skill-icon">
+          <div class="project-card-txt section-card-txt">
+            <h3>html5</h3>
+            <p>HTMLの独学をきっかけにオープン系開発に興味を持ちました。</p>
+          </div>
+        </div>
+        <!-- card -->
+      </div>
+    </div>
+  </section>
+
+  <!-- certificate section   -->
+  <section class="section" id="certificate">
+    <div class="container">
+      <h1>certification</h1>
+      <p>現在保有している資格一覧です！</p>
+  
+
+    <div class="section-set">
+      <!-- card -->
+      <div class="certificate-card section-card">
+        <img src="media/cs50h.jpg" alt="skill-icon">
+        <div class="certificate-card-txt section-card-txt">
+          <h3>CS50 introduction to computer science from harvard</h3>
+          <p>このコースでは、Pythonを使ってプログラミングする方法を学びました。</p>
+        </div>
+      </div>
+      <!-- card -->
+
+      <!-- card -->
+      <div class="certificate-card section-card">
+        <img src="media/htmlcss.webp" alt="skill-icon">
+        <div class="certificate-card-txt section-card-txt">
+          <h3>certificate of completion "HTML & CSS course"</h3>
+          <p>このコースでは、HTMLとCSSを学びました。練習を重ねて習得しました。
+            また、セマンティック要素を習得し、CSSのアニメーションやクリーンなコードの書き方について多くを学びました。</p>
+        </div>
+      </div>
+      <!-- card -->
+    </div>
+  </div>
+  </section>
+
+
+  <!--WORK SECTION-->
+  <section class="section" id="work">
+    <div class="container">
+      <h1>work</h1>
+      <p>過去の担当実績は下記の通りです。各アコーディオンをクリックで担当実績概要を確認できます。</p>
+
+    <ul class="work-history">
+      <!-- one year work start -->
+      <li>
+        <div class="year parent" id="parent">
+          <h3>2019</h3>
+          <!-- project start  -->
+          <div class="child">
+            <div>
+            <table class="year-project">
+              <tr>
+                <th>プロジェクト</th>
+                <td>保証会社向け家賃保証Windowsアプリケーション</td>
+              </tr>
+
+              <tr>
+                <th>担当フェーズ</th>
+                <td>
+                  開発 
+                  <br>
+                  単体/結合テスト 
+                </td>
+              </tr>
+
+              <tr>
+                <th>開発環境</th>
+                <td>
+                  【OS】Windows10
+                  <br>
+                  【言語】VB.NET
+                  <br>
+                  【DB】SQLServer
+                  <br>
+                  【ツール】SVN
+                </td>
+              </tr>
+
+              <tr>
+                <th>担当</th>
+                <td>PG</td>
+              </tr>
+            </table>
+          </div>
+          <!-- project end  -->
+
+          <!-- project start  -->
+          <div>
+            <table class="year-project">
+              <tr>
+                <th>プロジェクト</th>
+                <td>保証会社向け家賃保証Windowsアプリケーション</td>
+              </tr>
+
+              <tr>
+                <th>担当フェーズ</th>
+                <td>
+                  開発 
+                  <br>
+                  単体/結合テスト 
+                </td>
+              </tr>
+
+              <tr>
+                <th>開発環境</th>
+                <td>
+                  【OS】Windows10
+                  <br>
+                  【言語】VB.NET
+                  <br>
+                  【DB】SQLServer
+                  <br>
+                  【ツール】SVN
+                </td>
+              </tr>
+
+              <tr>
+                <th>担当</th>
+                <td>PG</td>
+              </tr>
+            </table>
+          </div>
+          <!-- project end  -->
+        </div>
+      </div>
+      </li>
+      <!-- one year work end -->
+    
+      <!-- one year work start -->
+      <li>
+        <div class="year parent" id="parent1">
+          <h3>2024</h3>
+          <!-- project start  -->
+          <div class="child" id="child2">
+            <div>
+            <table class="year-project" id="1">
+              <tr>
+                <th>プロジェクト</th>
+                <td>保証会社向け家賃保証Windowsアプリケーション</td>
+              </tr>
+
+              <tr>
+                <th>担当フェーズ</th>
+                <td>
+                  開発 
+                  <br>
+                  単体/結合テスト 
+                </td>
+              </tr>
+
+              <tr>
+                <th>開発環境</th>
+                <td>
+                  【OS】Windows10
+                  <br>
+                  【言語】VB.NET
+                  <br>
+                  【DB】SQLServer
+                  <br>
+                  【ツール】SVN
+                </td>
+              </tr>
+
+              <tr>
+                <th>担当</th>
+                <td>PG</td>
+              </tr>
+            </table>
+          </div>
+          <!-- project end  -->
+
+          <!-- project start  -->
+          <div>
+            <table class="year-project">
+              <tr>
+                <th>プロジェクト</th>
+                <td>保証会社向け家賃保証Windowsアプリケーション</td>
+              </tr>
+
+              <tr>
+                <th>担当フェーズ</th>
+                <td>
+                  開発 
+                  <br>
+                  単体/結合テスト 
+                </td>
+              </tr>
+
+              <tr>
+                <th>開発環境</th>
+                <td>
+                  【OS】Windows10
+                  <br>
+                  【言語】VB.NET
+                  <br>
+                  【DB】SQLServer
+                  <br>
+                  【ツール】SVN
+                </td>
+              </tr>
+
+              <tr>
+                <th>担当</th>
+                <td>PG</td>
+              </tr>
+            </table>
+          </div>
+          <!-- project end  -->
+        </div>
+      </div>
+      </li>
+      <!-- one year work end -->
+    </ul>
+  </div>
+  </section>
+
+  <!--CONTACT SECTION-->
+  <section class="section flex-center" id="contact">
+    <div class="container">
+      <div class="flip-card">
+        <div class="front-face">お問い合わせ</div>
+        <div class="back-face button-animation">
+          osama.muhammed.808@gmail.com <br>
+          Line-ID: osama_dake_ii
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="flex-center">©OSSAMA MOHAMED. All Rights Reserved.</footer>
+</body>
+
+
+  <script src="script/jquery-3.7.1.min.js"></script>
+  <script src="script/scrpt.js"></script>
+  <script src="script/animation.js"></script>
+  <button id="scrollTopBtn" title="Go to top" class="button-animation">
+    <img src="media/arrows-14-512.webp" alt="Go to top">
+  </button>
+</html>

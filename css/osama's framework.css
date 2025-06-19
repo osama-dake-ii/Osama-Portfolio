@@ -1,0 +1,400 @@
+.flex-center,
+.button-animation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body.disable-scroll {
+  overflow: hidden;
+  height: 100%;
+  touch-action: none; /* disables pinch-zoom + scroll on mobile */
+}
+
+.section{
+  height: 100vh;
+  min-height: fit-content;
+  padding: 60px 0px 100px;
+  /* border: 1px solid red; */
+}
+
+.gray-section{
+  height: 100vh;
+  min-height: fit-content;
+  padding: 60px 0px 100px;
+  background-color: #eee;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.title{
+  font: 600 34px Roboto;
+  text-transform: uppercase;
+  line-height: 0;
+}
+
+.sub-title{
+  font: 600 24px Roboto;
+  text-transform: capitalize;
+  line-height: 0;
+}
+
+.container{
+  width: var(--container_width); /*it equals 80%*/
+  margin: auto;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.section-set{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1500px;
+  row-gap: 100px;
+  column-gap: 80px;
+  text-align: start;
+}
+
+.section-card{
+  width: 43%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  font-size: 0.9rem;
+}
+
+.section-card img{
+  border-radius: 0;
+  width: 70px;
+  align-self: flex-start;
+  margin-top: 15px;
+}
+
+#jq{
+  transform: scale(1.4);
+}
+
+.section-card p{
+  font: 400 18px Roboto;
+
+}
+
+
+
+/* ----------------------------------------  */
+.text-typing {
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 0.0625em;
+  width: calc(20ch + 20*0.0625em);
+}
+.text-typing:after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: calc(20ch + 20*0.0625em);
+  height: 2ex;
+  left: 0;
+  top: 0;
+  background: white;
+  animation: 0.6s blink 20, move 3s 1.5s forwards steps(1);
+  border-left: 1px solid #152860;
+  box-shadow: 0px 1ex 0px 0px white;
+}
+@keyframes move {
+  5% {
+    width: calc(calc(20ch + 20*0.0625em) - (1ch + 1*0.0625em));
+    left: calc(1ch + 1*0.0625em);
+  }
+  10% {
+    width: calc(calc(20ch + 20*0.0625em) - (2ch + 2*0.0625em));
+    left: calc(2ch + 2*0.0625em);
+  }
+  15% {
+    width: calc(calc(20ch + 20*0.0625em) - (3ch + 3*0.0625em));
+    left: calc(3ch + 3*0.0625em);
+  }
+  20% {
+    width: calc(calc(20ch + 20*0.0625em) - (4ch + 4*0.0625em));
+    left: calc(4ch + 4*0.0625em);
+  }
+  25% {
+    width: calc(calc(20ch + 20*0.0625em) - (5ch + 5*0.0625em));
+    left: calc(5ch + 5*0.0625em);
+  }
+  30% {
+    width: calc(calc(20ch + 20*0.0625em) - (6ch + 6*0.0625em));
+    left: calc(6ch + 6*0.0625em);
+  }
+  35% {
+    width: calc(calc(20ch + 20*0.0625em) - (7ch + 7*0.0625em));
+    left: calc(7ch + 7*0.0625em);
+  }
+  40% {
+    width: calc(calc(20ch + 20*0.0625em) - (8ch + 8*0.0625em));
+    left: calc(8ch + 8*0.0625em);
+  }
+  45% {
+    width: calc(calc(20ch + 20*0.0625em) - (9ch + 9*0.0625em));
+    left: calc(9ch + 9*0.0625em);
+  }
+  50% {
+    width: calc(calc(20ch + 20*0.0625em) - (10ch + 10*0.0625em));
+    left: calc(10ch + 10*0.0625em);
+  }
+  55% {
+    width: calc(calc(20ch + 20*0.0625em) - (11ch + 11*0.0625em));
+    left: calc(11ch + 11*0.0625em);
+  }
+  60% {
+    width: calc(calc(20ch + 20*0.0625em) - (12ch + 12*0.0625em));
+    left: calc(12ch + 12*0.0625em);
+  }
+  65% {
+    width: calc(calc(20ch + 20*0.0625em) - (13ch + 13*0.0625em));
+    left: calc(13ch + 13*0.0625em);
+  }
+  70% {
+    width: calc(calc(20ch + 20*0.0625em) - (14ch + 14*0.0625em));
+    left: calc(14ch + 14*0.0625em);
+  }
+  75% {
+    width: calc(calc(20ch + 20*0.0625em) - (15ch + 15*0.0625em));
+    left: calc(15ch + 15*0.0625em);
+  }
+  80% {
+    width: calc(calc(20ch + 20*0.0625em) - (16ch + 16*0.0625em));
+    left: calc(16ch + 16*0.0625em);
+  }
+  85% {
+    width: calc(calc(20ch + 20*0.0625em) - (17ch + 17*0.0625em));
+    left: calc(17ch + 17*0.0625em);
+  }
+  90% {
+    width: calc(calc(20ch + 20*0.0625em) - (18ch + 18*0.0625em));
+    left: calc(18ch + 18*0.0625em);
+  }
+  95% {
+    width: calc(calc(20ch + 20*0.0625em) - (19ch + 19*0.0625em));
+    left: calc(19ch + 19*0.0625em);
+  }
+  100% {
+    width: calc(calc(20ch + 20*0.0625em) - (20ch + 20*0.0625em));
+    left: calc(20ch + 20*0.0625em);
+  }
+}
+@keyframes blink {
+  0% {
+    border-left-color: #152860;
+  }
+  50% {
+    border-left-color: #152860;
+  }
+  51% {
+    border-left-color: #eff5ed;
+  }
+  100% {
+    border-left-color: #eff5ed;
+  }
+}
+
+/* ----------------------------------------  */
+
+/* MEDIA QUERIES  */
+/* Small devices (phones, less than 400px) */
+@media (max-width: 399px){
+  header{
+    display: none !important;
+  }
+  html, body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .banner h1{
+    font: 600 14px Roboto,sans-serif !important;
+    margin-bottom: -10px !important;
+    white-space: wrap;
+    word-break: break-all;
+  }
+
+  .banner h5{
+    font: bold 9px Roboto,sans-serif !important;
+    letter-spacing: 1.4rem !important;
+    white-space: wrap;
+    word-break: break-all;
+  }
+
+  .container{
+    width: 90%;
+  } 
+
+    .section-set{
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-card{
+    width: 95%;
+    display: flex;
+    justify-content: start;
+  }
+
+    section h1{
+    font: 600 28px Roboto,sans-serif !important;
+  }
+
+  .profile, .profile .container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+  }
+  .container>div{
+    display: flex;
+    align-self: center !important;
+    justify-content: center;
+  }
+    img{
+    width: 80%;
+  }
+  .profile>p{
+    text-indent: 0px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 599px) {
+  header{
+    display: none !important;
+  }
+  html, body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-size: 12px;
+  }
+  .banner h1{
+    font: 600 20px Roboto,sans-serif !important;
+    margin-bottom: -10px !important;
+    white-space: wrap;
+    word-break: break-all;
+  }
+
+  .banner h5{
+    font: bold 11px Roboto,sans-serif !important;
+    letter-spacing: 1.8rem !important;
+    white-space: wrap;
+    word-break: break-all;
+
+  }
+  .container{
+    width: 90%;
+  } 
+  .section-set{
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-card{
+    width: 95%;
+    display: flex;
+    justify-content: start;
+  }
+
+    section h1{
+    font: 600 28px Roboto,sans-serif !important;
+  }
+
+  .profile, .profile .container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+  }
+  .container>div{
+    display: flex;
+    align-self: center !important;
+    justify-content: center;
+  }
+    img{
+    width: 80%;
+  }
+  .profile>p{
+    text-indent: 0px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  header ul{
+    margin: auto;
+    width:90%;
+    padding-inline-start: 0;
+    text-transform: uppercase;
+    list-style-type: none;
+    list-style-position: inside;
+  }
+  header li{
+  padding: 0px 10px;
+  height: 50px;
+  margin-right: 15px;
+  font: 600 12px 'Roboto', sans-serif !important;
+  flex-grow: 1;
+  cursor:pointer;
+}
+
+  html, body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .banner h1{
+    font: 600 34px Roboto,sans-serif !important;
+    margin-bottom: -10px !important;
+    white-space: wrap;
+    word-break: break-all;
+  }
+
+  .banner h5{
+    font: bold 11px Roboto,sans-serif !important;
+    letter-spacing: 1.8rem !important;
+    white-space: wrap;
+    word-break: break-all;
+  }
+
+  .container{
+    width: 90%;
+  } 
+
+  .section-set{
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-card{
+    width: 95%;
+    display: flex;
+    justify-content: start;
+  }
+
+    section h1{
+    font: 600 28px Roboto,sans-serif !important;
+  }
+
+  .profile, .profile .container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+  }
+  .container>div{
+    display: flex;
+    align-self: center !important;
+    justify-content: center;
+  }
+    img{
+    width: 80%;
+  }
+  .profile>p{
+    text-indent: 0px;
+  }
+}
