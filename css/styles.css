@@ -283,6 +283,7 @@ section h3:not(.x){
   border: 1px solid var(--font_color);
   padding: 14px 0px ;
   color: white;
+  width: 20%;
 }
 
 .year-project td{
