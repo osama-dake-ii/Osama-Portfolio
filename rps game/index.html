@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>じゃんけんゲーム</title>
+    <link rel="stylesheet" href="RPS.css">
+    <link rel="stylesheet" href="../css/osama's framework.css">
+  </head>
+
+  <body>
+    <div class="Title">Rock Paper Scissors Game</div>
+    <div class="game-buttons">
+      <button class="rock-button" onclick="
+      playGame('Rock')
+      "><img src="media/rock-emoji.png"></button>
+      
+      <button class="paper-button" onclick="
+        playGame('Paper')
+      "><img src="media/paper-emoji.png"></button>
+      
+      <button class="scissors-button" onclick = "
+        playGame('Scissors')
+      "><img src="media/scissors-emoji.png"></button>
+    </div>
+
+    <div class="js-Chosen-move">You                      Computer</div>
+
+    <div class="js-result">Result</div>
+    
+    <p class="js-scoreLine"></p>
+
+    <button class="reset-button" onclick="
+    doReset()
+    ">Reset Score</button>
+  </body>
+  
+  <footer class="flex-center">©OSSAMA MOHAMED. All Rights Reserved.</footer>
+
+  <script src="RPS.js"></script>
+</html>

@@ -2,7 +2,7 @@
 $(window).on('load', function () {
   setTimeout(function () {
     $('#particles').css('z-index', '-1'); // or any new value
-  }, 1200); // delay in milliseconds
+  }, 1500); // delay in milliseconds
 });
 
 // banner text animation 
@@ -10,7 +10,7 @@ const typeWriterSpeed = 120;
 
 $(window).on('load', function () {
   const text = "osama mohamed";
-  let i = -12;
+  let i = -14;
 
   function rm(){
     $('#typewriter').removeClass("blinking-animation");
@@ -33,7 +33,7 @@ $(window).on('load', function () {
 
 $(window).on('load', function () {
   const text = "portfolio";
-  let i = -25;
+  let i = -27;
   
   function typeWriter() {
     if (i < text.length) {

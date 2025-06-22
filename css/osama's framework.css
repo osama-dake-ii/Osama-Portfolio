@@ -14,14 +14,14 @@ body.disable-scroll {
 .section{
   height: 100vh;
   min-height: fit-content;
-  padding: 60px 0px 100px;
+  padding: 40px 0px 100px;
   /* border: 1px solid red; */
 }
 
 .gray-section{
   height: 100vh;
   min-height: fit-content;
-  padding: 60px 0px 100px;
+  padding: 40px 0px 100px;
   background-color: #eee;
   text-align: center;
   /* border: 1px solid red; */
@@ -50,7 +50,7 @@ body.disable-scroll {
   width: 90%;
   margin: auto;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
   max-width: 1500px;
@@ -61,6 +61,7 @@ body.disable-scroll {
 
 .section-card{
   width: 43%;
+  margin-right: auto;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -215,7 +216,19 @@ body.disable-scroll {
   html, body{
     overflow-y: scroll;
     overflow-x: hidden;
+    font-size: 0.9rem !important;
+
   }
+
+  p{
+  font-weight: 300 !important;
+  font-size: 0.9rem !important;
+  line-height: 1.7;
+  }
+  .profile p{
+    font-size: 0.9rem !important;
+  }
+
   .banner h1{
     font: 600 14px Roboto,sans-serif !important;
     margin-bottom: -10px !important;
@@ -234,7 +247,7 @@ body.disable-scroll {
     width: 90%;
   } 
 
-    .section-set{
+  .section-set{
     max-width: 100%;
     justify-content: center;
     align-items: center;
@@ -379,6 +392,7 @@ body.disable-scroll {
 
     section h1{
     font: 600 28px Roboto,sans-serif !important;
+    margin-bottom: 30px !important;
   }
 
   .profile, .profile .container{

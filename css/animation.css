@@ -12,22 +12,35 @@
 } 
 
 .circle-animation{
-  margin: auto;
   position:fixed;
-  width: 1000px;
-  height: 1000px;
+  width: 10px;
+  height: 10px;
   background-color: black;
-  border-radius: 50%;
+  border-radius: 100%;
   animation: shrink-circle 2s ease;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   z-index: 999;
   perspective-origin: center;
-  inset: 0;
-  transform: scale(3);
-
+  top: 50%;
+  left: 50%;
+  transform: scale(600);
+  -webkit-transform: scale(600);
+  -moz-transform: scale(600);
+  -ms-transform: scale(600);
+  -o-transform: scale(600);
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
 }
 
+
+@keyframes shrink-circle {
+  100%{
+    transform: scale(0);
+  }
+}
 .button-animation:hover:before {
   background-size: 200% 2px, 2px 400%, 2px 400%, 55% 2px, 55% 2px;
   background-position: 50% 100%, 0% 100%, 100% 100%, 100% 0%, 0% 0%;
