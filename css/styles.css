@@ -11,8 +11,9 @@
   /* user-select: none; */
 }
 html, body{
-scrollbar-width: 0px;
--webkit-scrollbar: none;
+  width: 100%;
+  scrollbar-width: 0px;
+  -webkit-scrollbar: none;
 }
 html::-webkit-scrollbar {
   display: none; /* Hide scrollbar in Chrome/Safari */
