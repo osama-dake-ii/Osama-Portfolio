@@ -15,6 +15,12 @@ html, body{
   scrollbar-width: 0px;
   -webkit-scrollbar: none;
 }
+
+.full-height {
+  height: 100vh; /* fallback */
+  height: calc(var(--vh, 1vh) * 100);
+}
+
 html::-webkit-scrollbar {
   display: none; /* Hide scrollbar in Chrome/Safari */
 }

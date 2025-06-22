@@ -275,3 +275,14 @@ $(document).on('keydown', function (e) {
     scrollToSection(currentIndex - 1);
   }
 });
+
+
+  // Fix for mobile Safari 100vh bug
+  function updateVH() {
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  }
+
+  window.addEventListener('resize', updateVH);
+  window.addEventListener('orientationchange', updateVH);
+  updateVH();
