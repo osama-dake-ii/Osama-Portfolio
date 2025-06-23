@@ -13,33 +13,28 @@
 
 .circle-animation{
   position:fixed;
-  width: 10px;
-  height: 10px;
-  background-color: black;
-  border-radius: 100%;
-  animation: shrink-circle 2s ease;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  z-index: 999;
-  perspective-origin: center;
   top: 50%;
   left: 50%;
-  transform: scale(600);
-  -webkit-transform: scale(600);
-  -moz-transform: scale(600);
-  -ms-transform: scale(600);
-  -o-transform: scale(600);
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
-  -o-border-radius: 100%;
+  width: 200vmax;
+  height: 200vmax;
+  background-color: black;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  animation: shrink-circle 2s ease-in-out forwards;
+  animation-iteration-count: 1;
+  z-index: 999;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-animation: shrink-circle 2s ease-in-out forwards;
 }
 
 
 @keyframes shrink-circle {
   100%{
-    transform: scale(0);
-  }
+    transform: translate(-50%, -50%) scale(0);
+    }
 }
 .button-animation:hover:before {
   background-size: 200% 2px, 2px 400%, 2px 400%, 55% 2px, 55% 2px;
