@@ -203,17 +203,18 @@ $(window).on('wheel', function (e) {
         // If NOT at the bottom yet, allow normal scroll
         if (scrollInSection + windowHeight < sectionHeight - 10) return;
       } 
+
       // Scrolling up
-      else if (e.originalEvent.deltaY < 0) {
+      if (e.originalEvent.deltaY < 0) {
         // If NOT at the top yet, allow normal scroll
         if (scrollInSection > 10) return;
       }
     }  
   }
 
-  if (e.originalEvent.deltaY > 0 && currentIndex < sections.length - 1) {
-    scrollToSection(currentIndex + 1);
-  } else if (e.originalEvent.deltaY < 0 && currentIndex > 0) {
+  // if (e.originalEvent.deltaY > 0 && currentIndex < sections.length - 1) {
+  //   scrollToSection(currentIndex + 1); } else
+    if (e.originalEvent.deltaY < 0 && currentIndex > 0) {
     scrollToSection(currentIndex - 1);
   }
 });
@@ -245,9 +246,9 @@ $(window).on('touchend', function (e) {
     if (deltaY < 0 && scrollInSection > 0) return;
   }
 
-  if (deltaY > 0 && currentIndex < sections.length - 1) {
-    scrollToSection(currentIndex + 1);
-  } else if (deltaY < 0 && currentIndex > 0) {
+  // if (deltaY > 0 && currentIndex < sections.length - 1) {
+  //   scrollToSection(currentIndex + 1);
+  if (deltaY < 0 && currentIndex > 0) {
     scrollToSection(currentIndex - 1);
   }
 });
@@ -265,7 +266,7 @@ $(document).on('keydown', function (e) {
   const scrollInSection = scrollTop - sectionTop;
 
   if (sectionHeight > windowHeight) {
-    if (e.key === "ArrowDown" && scrollInSection + windowHeight < sectionHeight - 10) return;
+    // if (e.key === "ArrowDown" && scrollInSection + windowHeight < sectionHeight - 10) return;
     if (e.key === "ArrowUp" && scrollInSection > 10) return;
   }
 

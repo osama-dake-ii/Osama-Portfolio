@@ -149,10 +149,8 @@ img{
   text-align: start;
 }
 
-/* ---FIRST PART OF THE PAGE---   */
 
 /* SKILL PART OF THE PAGE */
-
 .skill h2{
   text-align: center;
 }
@@ -201,6 +199,7 @@ section h3:not(.x){
 .x{
   text-transform: capitalize;
 }
+
 /* from here project section   */
 .project-card{
   padding: 10px 20px;
@@ -213,9 +212,11 @@ section h3:not(.x){
   box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
-.project-card h3{
-  word-break: break-all;   /* or break-all */
-  white-space: pre;
+.project-card-txt h3{
+  white-space: normal;
+  word-break: break-word;
+  line-height: 1;
+
 }
 .project-card img{
   width: 20% !important;
