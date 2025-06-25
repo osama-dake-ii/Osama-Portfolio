@@ -184,7 +184,7 @@ hr{
 }
 
 #certificate h3{
-  font: 400 18px Roboto !important;
+  font: 400 18px Roboto;
   white-space: wrap;
   word-break: break-word;
   line-height: 1.7 !important;
@@ -359,6 +359,10 @@ section h3:not(.x){
   font: 200 14px Roboto;
   letter-spacing: 0.3rem;
   user-select: text !important;
+  -webkit-transform: rotatex(180deg);
+  -moz-transform: rotatex(180deg);
+  -ms-transform: rotatex(180deg);
+  -o-transform: rotatex(180deg);
 }
 
 #contact .container div.flipped{
