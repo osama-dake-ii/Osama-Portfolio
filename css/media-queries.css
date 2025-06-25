@@ -14,11 +14,12 @@
 
   p{
   font-weight: 300 !important;
-  font-size: 0.9rem !important;
+  font-size: 1rem !important;
   line-height: 1.7;
   }
+
   .profile p{
-    font-size: 0.9rem !important;
+    font-size: 1rem !important;
   }
 
   .banner h1{
@@ -50,14 +51,18 @@
     justify-content: start;
   }
 
-    section h1{
+  section h1{
     font: 600 28px Roboto,sans-serif !important;
+  }
+
+  .profile h1{
+  margin-bottom: 30px;
   }
 
   .profile, .profile .container{
     display: flex;
     flex-direction: column;
-    gap:10px;
+    gap:20px;
   }
   .container>div{
     display: flex;
@@ -90,9 +95,12 @@
     margin: 0;
     font-size: 1.1rem;
     text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
   }
   .certificate-card img{
     align-self: center !important;
+    width: 60px;
   }
 
   /* contact section fix  */
