@@ -1,0 +1,132 @@
+* [33mcommit 0e40ad73095f23e18226d94894c6ea296e0885e1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+[31m|[m Author: Oama Mohamed <Osama.Muhammed808@gmail.com>
+[31m|[m Date:   Wed Jun 25 10:59:45 2025 +0900
+[31m|[m 
+[31m|[m     small changes in padding and styles in cert
+[31m|[m 
+* [33mcommit e9bb627cf08b4d491d298888c85804a356dca0e2[m
+[31m|[m Author: Oama Mohamed <Osama.Muhammed808@gmail.com>
+[31m|[m Date:   Wed Jun 25 10:44:44 2025 +0900
+[31m|[m 
+[31m|[m     i seperated media queries in a file edited the certificate section for mobile and the contact secyion
+[31m|[m 
+* [33mcommit f31bf87a0f0a3f8391b827d5b311af7eca03bf43[m
+[31m|[m Author: Oama Mohamed <Osama.Muhammed808@gmail.com>
+[31m|[m Date:   Tue Jun 24 06:23:29 2025 +0900
+[31m|[m 
+[31m|[m     i edited the animation while scrolling and modified the styles in h3 in portfolio section
+[31m|[m 
+* [33mcommit dd6339da4e7f0acc7998bfe474ded718e43f59e2[m
+[31m|[m Author: Oama Mohamed <Osama.Muhammed808@gmail.com>
+[31m|[m Date:   Mon Jun 23 13:03:52 2025 +0900
+[31m|[m 
+[31m|[m     Circle animation fix for pc and phones
+[31m|[m 
+* [33mcommit b79903585b97bc6fc871e6d7322d92d73064442e[m
+[31m|[m Author: Oama Mohamed <Osama.Muhammed808@gmail.com>
+[31m|[m Date:   Mon Jun 23 01:32:32 2025 +0900
+[31m|[m 
+[31m|[m     vh fix 2 notch
+[31m|[m 
+* [33mcommit c5655b6c6f1619fad011914604091046c853c93c[m
+[31m|[m Author: Oama Mohamed <Osama.Muhammed808@gmail.com>
+[31m|[m Date:   Mon Jun 23 01:28:52 2025 +0900
+[31m|[m 
+[31m|[m     vh fix
+[31m|[m 
+* [33mcommit c334b69210460cc862dbb54e825a644d8e1bcc9c[m
+[31m|[m Author: Oama Mohamed <Osama.Muhammed808@gmail.com>
+[31m|[m Date:   Mon Jun 23 01:25:48 2025 +0900
+[31m|[m 
+[31m|[m     name editing
+[31m|[m 
+* [33mcommit d679ce6b14babf4cd268ba792e873eface2ea551[m
+[31m|[m Author: Oama Mohamed <Osama.Muhammed808@gmail.com>
+[31m|[m Date:   Mon Jun 23 01:19:09 2025 +0900
+[31m|[m 
+[31m|[m     name editing
+[31m|[m 
+* [33mcommit 2782be3ad6112200d15ea761069b53103ad6b340[m
+[31m|[m Author: Oama Mohamed <Osama.Muhammed808@gmail.com>
+[31m|[m Date:   Mon Jun 23 01:00:12 2025 +0900
+[31m|[m 
+[31m|[m     name editing
+[31m|[m 
+* [33mcommit e6943673a8d34eb1c264223389dd72d1f27e603d[m
+[31m|[m Author: Oama Mohamed <Osama.Muhammed808@gmail.com>
+[31m|[m Date:   Mon Jun 23 00:58:46 2025 +0900
+[31m|[m 
+[31m|[m     name editing
+[31m|[m   
+*   [33mcommit 419b0a6f797e590e3b87aea88ec0a82a9fb33794[m
+[32m|[m[33m\[m  Merge: 95e8dd6 b11fdf7
+[32m|[m [33m|[m Author: Oama Mohamed <Osama.Muhammed808@gmail.com>
+[32m|[m [33m|[m Date:   Mon Jun 23 00:55:20 2025 +0900
+[32m|[m [33m|[m 
+[32m|[m [33m|[m     Merge https://github.com/osama-dake-ii/Osama-Portfolio
+[32m|[m [33m|[m 
+[32m|[m * [33mcommit b11fdf73e59bb8416666cc97c4c54c915835c3b3[m
+[32m|[m [33m|[m Author: osama-dake-ii <109542278+osama-dake-ii@users.noreply.github.com>
+[32m|[m [33m|[m Date:   Mon Jun 23 00:45:57 2025 +0900
+[32m|[m [33m|[m 
+[32m|[m [33m|[m     Create CNAME
+[32m|[m [33m|[m 
+* [33m|[m [33mcommit 95e8dd62e6ed52d270b19cdce5c428feb753eeb1[m
+[33m|[m[33m/[m  Author: Oama Mohamed <Osama.Muhammed808@gmail.com>
+[33m|[m   Date:   Mon Jun 23 00:49:15 2025 +0900
+[33m|[m   
+[33m|[m       name editing
+[33m|[m 
+* [33mcommit cffd477452632ae7bbe1a681eb3402fe28d3c542[m
+[33m|[m Author: Oama Mohamed <Osama.Muhammed808@gmail.com>
+[33m|[m Date:   Mon Jun 23 00:36:40 2025 +0900
+[33m|[m 
+[33m|[m     name editing
+[33m|[m 
+* [33mcommit e18014a8ad3d197c46eabe1db2a0f4d63740753f[m
+[33m|[m Author: Oama Mohamed <Osama.Muhammed808@gmail.com>
+[33m|[m Date:   Mon Jun 23 00:34:28 2025 +0900
+[33m|[m 
+[33m|[m     name editing
+[33m|[m 
+* [33mcommit 4d70268669c1231d25856721e9be476fa4df13eb[m
+[33m|[m Author: Oama Mohamed <Osama.Muhammed808@gmail.com>
+[33m|[m Date:   Mon Jun 23 00:31:47 2025 +0900
+[33m|[m 
+[33m|[m     name editing
+[33m|[m 
+* [33mcommit a2ef906cee59604bbc3766366ae1abf6b9f0894c[m
+[33m|[m Author: Oama Mohamed <Osama.Muhammed808@gmail.com>
+[33m|[m Date:   Mon Jun 23 00:27:12 2025 +0900
+[33m|[m 
+[33m|[m     name editing
+[33m|[m 
+* [33mcommit 1ea645eb60c02e48105e6dac5e70a39408f648b5[m
+[33m|[m Author: Oama Mohamed <Osama.Muhammed808@gmail.com>
+[33m|[m Date:   Mon Jun 23 00:05:09 2025 +0900
+[33m|[m 
+[33m|[m     name editing
+[33m|[m 
+* [33mcommit 77ddcd47e8dda641033449183678968c9610f262[m
+[33m|[m Author: Oama Mohamed <Osama.Muhammed808@gmail.com>
+[33m|[m Date:   Sun Jun 22 13:35:41 2025 +0900
+[33m|[m 
+[33m|[m     i edited the most and its roghly ready to be online this is the first version for github
+[33m|[m 
+* [33mcommit a0c2379661e2c2dd952d14694f5f9044467782c9[m
+[33m|[m Author: Oama Mohamed <Osama.Muhammed808@gmail.com>
+[33m|[m Date:   Sat Jun 21 10:25:35 2025 +0900
+[33m|[m 
+[33m|[m     last changes in work section ad finished last two years of work and its ready to applied for the first two years
+[33m|[m 
+* [33mcommit a794028b29f04a83a0740797b3b1d6f469b64f68[m
+[33m|[m Author: Oama Mohamed <Osama.Muhammed808@gmail.com>
+[33m|[m Date:   Fri Jun 20 01:57:51 2025 +0900
+[33m|[m 
+[33m|[m     test commit
+[33m|[m 
+* [33mcommit 91bce49d8403575aeb92b41464f9dbaa22561306[m
+  Author: Oama Mohamed <Osama.Muhammed808@gmail.com>
+  Date:   Fri Jun 20 01:54:48 2025 +0900
+  
+      first commit
