@@ -5,6 +5,13 @@ $(window).on('load', function () {
   }, 1500); // delay in milliseconds
 });
 
+// humberger menu 
+$(document).ready(function(){
+	$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+		$(this).toggleClass('open');
+	});
+});
+
 // banner text animation 
 const typeWriterSpeed = 120;
 
@@ -168,7 +175,6 @@ function getCurrentSectionIndex() {
       closestIndex = i;
     }
   });
-  console.log(closestIndex)
   return closestIndex;
 }
 
