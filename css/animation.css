@@ -82,13 +82,13 @@
 #nav-icon4 {
   position: fixed;
   z-index: 99999;
-  top: -20px;
-  right: 20px;
-  transform: rotate(180deg) scale(0.5);
-  -webkit-transform: rotate(180deg) scale(0.5);
-  -moz-transform: rotate(180deg) scale(0.5);
-  -ms-transform: rotate(180deg) scale(0.5);
-  -o-transform: rotate(180deg) scale(0.5);
+  top: -30px;
+  right: 10px;
+  transform: rotate(180deg) scale(0.4);
+  -webkit-transform: rotate(180deg) scale(0.4);
+  -moz-transform: rotate(180deg) scale(0.4);
+  -ms-transform: rotate(180deg) scale(0.4);
+  -o-transform: rotate(180deg) scale(0.4);
 }
 
 #nav-icon4 span:nth-child(1) {
