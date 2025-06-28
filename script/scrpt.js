@@ -6,10 +6,22 @@ $(window).on('load', function () {
 });
 
 // humberger menu 
+let menuOpen = false;
+
+function slideMenu(){
+    $('#nav-icon4').toggleClass('open');
+
+    if (!menuOpen) {
+      $('#nav-menu').animate({ left: '0%' });
+    } else {
+      $('#nav-menu').animate({ left: '-100%' }); // slide back off screen
+    }
+
+    menuOpen = !menuOpen;
+  }
+
 $(document).ready(function(){
-	$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
-		$(this).toggleClass('open');
-	});
+  $('#nav-icon4').click(slideMenu);
 });
 
 // banner text animation 
@@ -71,6 +83,7 @@ $(document).ready(function(){
 let headerHeight = $(window).width() < 600 ? 0 : 80; // Adjust header height here or use dynamic function
 
 $(document).ready(function () {
+  $("#goToProfile").click(slideMenu)
   $("#goToProfile").click(function () {
     let target = $("#profile").offset().top - headerHeight;
 
@@ -81,6 +94,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+  $("#goToSkill").click(slideMenu)
   $("#goToSkill").click(function () {
     let target = $("#skill").offset().top - headerHeight;
 
@@ -91,6 +105,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+  $("#goToPortfolio").click(slideMenu)
   $("#goToPortfolio").click(function () {
     let target = $("#portfolio").offset().top - headerHeight;
 
@@ -101,6 +116,8 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+  $("#goToCertificate").click(slideMenu)
+
   $("#goToCertificate").click(function () {
     let target = $("#certificate").offset().top - headerHeight;
 
@@ -111,6 +128,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+  $("#goToWork").click(slideMenu)
   $("#goToWork").click(function () {
     let target = $("#work").offset().top - headerHeight;
 
@@ -121,6 +139,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+  $("#goToContact").click(slideMenu)
   $("#goToContact").click(function () {
     let target = $("#contact").offset().top - headerHeight;
 
