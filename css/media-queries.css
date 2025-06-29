@@ -25,7 +25,7 @@
   #nav-menu{
   display: block;
   }
-  
+
   .profile p{
     font-size: 1rem !important;
   }
@@ -93,6 +93,7 @@
   align-self: center;
   margin-top: 0px;  
   }
+
   /* portfolio section style  */
   #portfolio div{
     flex-direction: column;
@@ -196,6 +197,54 @@
   .profile>p{
     text-indent: 0px;
   }
+
+  
+  /* space between section cards  */
+  .section-set{
+    row-gap: 30px !important;
+  }
+  #skill img{
+  width: 50px;
+  align-self: center;
+  margin-top: 0px;  
+  }
+  
+  /* portfolio section style  */
+  #portfolio div{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #portfolio div img{
+    width: 50% !important;
+    margin-bottom: 10px !important;
+  }
+
+  /* certificate styles  */
+  .certificate-card{
+    flex-direction: column;
+    gap: 10px;
+  }
+  .mobile-h3{
+    margin: 0 !important;
+    font-size: 1.1rem !important;
+    text-align: center !important;
+    letter-spacing: 1px !important;
+    word-spacing: 2px !important;
+  }
+  .certificate-card img{
+    align-self: center !important;
+    width: 60px;
+  }
+
+  /* contact section fix  */
+  #contact .container .back-face{
+    height: 100px !important;
+    width: fit-content !important;
+    line-height: 1.9 !important;
+    font-size: 0.7rem;
+  }
+  
 }
 
 @media (min-width: 600px) and (max-width: 1000px) {
