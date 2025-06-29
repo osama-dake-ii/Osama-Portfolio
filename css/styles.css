@@ -451,6 +451,7 @@ section h3:not(.x){
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   -webkit-backface-visibility: hidden;
+  white-space: wrap;
 }
 
 #contact .container div.flipped{
