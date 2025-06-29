@@ -38,8 +38,79 @@ p{
   line-height: 1.7;
 }
 /* nav menu  */
-#nav-menu ul{
+#nav-menu{
+  display: none;
+}
 
+#box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: roboto;
+  font-size: 2.1rem;
+  text-transform: uppercase;
+  margin: 20% 0% -10% 0%;
+  padding: 2%;
+  letter-spacing: 3px;
+  word-spacing: 6px;
+}
+.gradient-border {
+  --borderWidth: 3px;
+  position: relative;
+  border-radius: var(--borderWidth);
+  opacity: 1;
+}
+.gradient-border:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #ffffff, #000000, #ffffff, #000000, #ffffff, #000000, #ffffff);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s linear infinite;
+  background-size: 300% 300%;
+}
+
+
+@keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%;
+    opacity: 0.4;
+  }
+  50% {
+    background-position: 50% 100%;
+    opacity: 0.4;
+  }
+  100% {
+    background-position: 100% 50%;
+    opacity: 0.4;
+  }
+}
+
+#nav-menu ul{
+  list-style-position: inside;
+  list-style-type: none;
+  text-transform: uppercase;
+  padding-inline-start: 0;
+  font: 600 1.5rem 'Roboto', sans-serif !important;
+  margin-top: 20%;
+}
+
+#nav-menu ul li{
+  margin: 5%;
+  padding: 5%;
+  background-color: #ffffff;
+  color: black;
+  text-align: center;
+}
+
+#nav-menu ul li:hover{
+  background-color: transparent;
+  color: white;
 }
 
 /* HEADER START  */
