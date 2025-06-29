@@ -37,6 +37,10 @@ p{
   font-size: 1.22rem !important;
   line-height: 1.7;
 }
+/* nav menu  */
+#nav-menu ul{
+
+}
 
 /* HEADER START  */
 #humb{
@@ -313,7 +317,7 @@ section h3:not(.x){
 
 /* CONTACT SECTION  */
 #contact{
-  height: 80vh;
+  height: 100vh;
 }
 #contact .container .flip-card{
   position: relative;
@@ -321,6 +325,10 @@ section h3:not(.x){
   transform-style: preserve-3d;
   transition: 1s ease;
   font: 600 18px Roboto;
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
 }
 
 #contact .container .front-face,
@@ -367,6 +375,11 @@ section h3:not(.x){
   -moz-transform: rotatex(180deg);
   -ms-transform: rotatex(180deg);
   -o-transform: rotatex(180deg);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-backface-visibility: hidden;
 }
 
 #contact .container div.flipped{

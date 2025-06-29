@@ -79,75 +79,131 @@ $(document).ready(function(){
     $(this).toggleClass("open");
   })})
 
-// navigation section animation 
-let headerHeight = $(window).width() < 600 ? 0 : 80; // Adjust header height here or use dynamic function
+// navigation section animation start --------------
 
+// updating header height onn rotation and 
+let headerHeight;
+
+function updateHeaderHeight() {
+  headerHeight = $(window).width() < 600 ? 0 : 80;
+}
+
+// Initial calculation on page load
 $(document).ready(function () {
-  $("#goToProfile").click(slideMenu)
-  $("#goToProfile").click(function () {
+  updateHeaderHeight();
+
+  // Update on resize (e.g., phone rotation)
+  $(window).on('resize orientationchange', function () {
+    updateHeaderHeight();
+  });
+});
+
+// profile slide menu and head bar 
+$(document).ready(function () {
+  function gtprofile() {
     let target = $("#profile").offset().top - headerHeight;
 
     $('html, body').animate({
       scrollTop: target
     }, 600); // 800ms = 0.8 second scroll
+  };
+
+  $("#goToProfile").click(function(){
+    slideMenu();
+    gtprofile();
   });
+
+  $("#goToProfile2").click(gtprofile)
 });
 
+// skill slide menu and head bar 
 $(document).ready(function () {
-  $("#goToSkill").click(slideMenu)
-  $("#goToSkill").click(function () {
+  function gtskill() {
     let target = $("#skill").offset().top - headerHeight;
 
     $('html, body').animate({
       scrollTop: target
     }, 600); // 800ms = 0.8 second scroll
+  };
+
+  $("#goToSkill").click(function(){
+    slideMenu();
+    gtskill();
   });
+
+  $("#goToSkill2").click(gtskill)
 });
 
+//portfolio slide menu and head bar 
 $(document).ready(function () {
-  $("#goToPortfolio").click(slideMenu)
-  $("#goToPortfolio").click(function () {
+  function gtportfolio() {
     let target = $("#portfolio").offset().top - headerHeight;
 
     $('html, body').animate({
       scrollTop: target
     }, 600); // 800ms = 0.8 second scroll
+  }
+
+  $("#goToPortfolio").click(function () {
+    slideMenu();
+    gtportfolio();
   });
+  $("#goToPortfolio2").click(gtportfolio);
 });
 
+// certificate slide menu and head bar 
 $(document).ready(function () {
-  $("#goToCertificate").click(slideMenu)
-
-  $("#goToCertificate").click(function () {
+  function gtcertificate() {
     let target = $("#certificate").offset().top - headerHeight;
 
     $('html, body').animate({
       scrollTop: target
     }, 600); // 800ms = 0.8 second scroll
+  };
+
+  $("#goToCertificate").click(function(){
+    slideMenu();
+    gtcertificate();
   });
+
+  $("#goToCertificate2").click(gtcertificate)
 });
 
+// work slide menu and head bar 
 $(document).ready(function () {
-  $("#goToWork").click(slideMenu)
-  $("#goToWork").click(function () {
+  function gtwork() {
     let target = $("#work").offset().top - headerHeight;
 
     $('html, body').animate({
       scrollTop: target
     }, 600); // 800ms = 0.8 second scroll
+  };
+
+  $("#goToWork").click(function(){
+    slideMenu();
+    gtwork();
   });
+  $("#goToWork2").click(gtwork)
 });
 
+// contact slide menu and head bar 
 $(document).ready(function () {
-  $("#goToContact").click(slideMenu)
-  $("#goToContact").click(function () {
+  function gtcontact() {
     let target = $("#contact").offset().top - headerHeight;
 
     $('html, body').animate({
       scrollTop: target
     }, 600); // 800ms = 0.8 second scroll
+  };
+
+  $("#goToContact").click(function(){
+    slideMenu();
+    gtcontact();
   });
+  $("#goToContact2").click(gtcontact);
 });
+// navigation section animation ending---------------------
+
 
 // scroll to the top of the page button 
 $(document).ready(function () {
