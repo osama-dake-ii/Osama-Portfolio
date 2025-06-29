@@ -83,11 +83,9 @@ $(document).ready(function(){
 
 // updating header height onn rotation and 
 let headerHeight;
-
 function updateHeaderHeight() {
   headerHeight = $(window).width() < 600 ? 0 : 80;
 }
-
 // Initial calculation on page load
 $(document).ready(function () {
   updateHeaderHeight();
@@ -98,109 +96,101 @@ $(document).ready(function () {
   });
 });
 
-// profile slide menu and head bar 
+// scroll section to navigate from sub pages to main pg
 $(document).ready(function () {
-  function gtprofile() {
-    let target = $("#profile").offset().top - headerHeight;
+  const scrollTarget = sessionStorage.getItem("scrollTarget");
+
+  if (scrollTarget && $(scrollTarget).length) {
+    const target = $(scrollTarget).offset().top - headerHeight;
 
     $('html, body').animate({
       scrollTop: target
-    }, 600); // 800ms = 0.8 second scroll
-  };
+    }, 2000);
 
+    // Clear it so it doesn't scroll again on future visits
+    sessionStorage.removeItem("scrollTarget");
+  }
+});
+
+function scrollTo(location) {
+  let target = $(location).offset().top - headerHeight;
+
+  $('html, body').animate({
+    scrollTop: target
+  }, 600);
+};
+// ---------------
+
+
+// profile slide menu and head bar 
+$(document).ready(function () {
   $("#goToProfile").click(function(){
     slideMenu();
-    gtprofile();
+    scrollTo("#profile");
+    
   });
 
-  $("#goToProfile2").click(gtprofile)
+  $("#goToProfile2").click(function () {
+  scrollTo("#profile");
+});
 });
 
 // skill slide menu and head bar 
 $(document).ready(function () {
-  function gtskill() {
-    let target = $("#skill").offset().top - headerHeight;
-
-    $('html, body').animate({
-      scrollTop: target
-    }, 600); // 800ms = 0.8 second scroll
-  };
 
   $("#goToSkill").click(function(){
     slideMenu();
-    gtskill();
+    scrollTo("#skill");
   });
 
-  $("#goToSkill2").click(gtskill)
+  $("#goToSkill2").click(function () {
+    scrollTo("#skill");
+});
 });
 
 //portfolio slide menu and head bar 
 $(document).ready(function () {
-  function gtportfolio() {
-    let target = $("#portfolio").offset().top - headerHeight;
-
-    $('html, body').animate({
-      scrollTop: target
-    }, 600); // 800ms = 0.8 second scroll
-  }
-
   $("#goToPortfolio").click(function () {
     slideMenu();
-    gtportfolio();
+    scrollTo("#portfolio");
   });
-  $("#goToPortfolio2").click(gtportfolio);
+  $("#goToPortfolio2").click(function () {
+    scrollTo("#portfolio");
+});
 });
 
 // certificate slide menu and head bar 
 $(document).ready(function () {
-  function gtcertificate() {
-    let target = $("#certificate").offset().top - headerHeight;
-
-    $('html, body').animate({
-      scrollTop: target
-    }, 600); // 800ms = 0.8 second scroll
-  };
-
   $("#goToCertificate").click(function(){
     slideMenu();
-    gtcertificate();
+    scrollTo("#certificate");
   });
 
-  $("#goToCertificate2").click(gtcertificate)
+  $("#goToCertificate2").click(function () {
+    scrollTo("#certificate");
+});
 });
 
 // work slide menu and head bar 
 $(document).ready(function () {
-  function gtwork() {
-    let target = $("#work").offset().top - headerHeight;
-
-    $('html, body').animate({
-      scrollTop: target
-    }, 600); // 800ms = 0.8 second scroll
-  };
-
   $("#goToWork").click(function(){
     slideMenu();
-    gtwork();
+    scrollTo("#work");
   });
-  $("#goToWork2").click(gtwork)
+  $("#goToWork2").click(function () {
+    scrollTo("#work");
+});
 });
 
 // contact slide menu and head bar 
 $(document).ready(function () {
-  function gtcontact() {
-    let target = $("#contact").offset().top - headerHeight;
-
-    $('html, body').animate({
-      scrollTop: target
-    }, 600); // 800ms = 0.8 second scroll
-  };
-
   $("#goToContact").click(function(){
     slideMenu();
-    gtcontact();
+    scrollTo("#contact");
   });
-  $("#goToContact2").click(gtcontact);
+  $("#goToContact2").click(function () {
+    scrollTo("#contact");
+});
 });
 // navigation section animation ending---------------------
 
