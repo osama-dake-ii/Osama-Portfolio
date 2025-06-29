@@ -7,6 +7,41 @@ body{
   color: white;
 }
 
+#particles{
+  position: fixed;
+  inset: 0px;
+  height: 100vmax;
+  width: 100vmax;
+  z-index:99999;
+  overflow: hidden !important;
+  opacity: 0.1;
+} 
+.circle-animation{
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  width: 200vmax;
+  height: 200vmax;
+  background-color: black;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  animation: shrink-circle 2s ease-in-out forwards;
+  animation-iteration-count: 1;
+  z-index: 999;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-animation: shrink-circle 2s ease-in-out forwards;
+}
+
+
+@keyframes shrink-circle {
+  100%{
+    transform: translate(-50%, -50%) scale(0);
+    }
+}
+
 
 img{
   height: 70px
@@ -73,6 +108,7 @@ footer{
   font: 400 10px Roboto;
   align-self: flex-end;
   bottom: 0;
+  z-index: 99999999;
 }
 
 html, body{

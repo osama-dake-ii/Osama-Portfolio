@@ -7,25 +7,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="../css/osama's framework.css">
+    <link rel="stylesheet" href="../../css/osama's framework.css">
   
   <title>じゃんけんゲーム</title>
   </head>
+  <!-- back ground -->
+  <div id="particles">
+    <div class="overlay"></div>
+    <div id="intro"></div>
+  </div> 
+
+  <!-- Preloader -->
+  <div class="circle-animation"></div>
 
   <body>
     <div class="Title">Rock Paper Scissors Game</div>
     <div class="game-buttons">
       <button class="rock-button" onclick="
       playGame('Rock')
-      "><img src="../rps game/media/Rock-emoji.png"></button>
+      "><img src="../rpsGame/media/Rock-emoji.png"></button>
         
       <button class="paper-button" onclick="
         playGame('Paper')
-      "><img src="../rps game/media/Paper-emoji.png"></button>
+      "><img src="../rpsGame/media/Paper-emoji.png"></button>
       
       <button class="scissors-button" onclick = "
         playGame('Scissors')
-      "><img src="../rps game/media/Scissors-emoji.png"></button>
+      "><img src="../rpsGame/media/Scissors-emoji.png"></button>
     </div>
 
     <div class="js-Chosen-move">You                      Computer</div>
@@ -41,5 +49,7 @@
   
   <footer class="flex-center">©OSSAMA MOHAMED. All Rights Reserved.</footer>
 
+  <script src="../../script/jquery-3.7.1.min.js"></script>
   <script src="script.js"></script>
+  <script src="../../script/animation.js"></script>
 </html>

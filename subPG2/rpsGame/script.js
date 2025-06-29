@@ -1,3 +1,10 @@
+// backGround z-index switch 
+$(window).on('load', function () {
+  setTimeout(function () {
+    $('#particles').css('z-index', '-1'); // or any new value
+  }, 1500); // delay in milliseconds
+});
+
 let score = JSON.parse(localStorage.getItem('score')) ||
 {wins: 0, loses: 0, ties: 0};
 
