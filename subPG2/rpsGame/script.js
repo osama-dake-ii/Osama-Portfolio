@@ -69,6 +69,6 @@ function playGame(playerMove) {
 function doReset(){
   localStorage.removeItem('score')
     document.querySelector('.js-scoreLine').innerHTML = 'Wins: 0&nbsp;&nbsp;&nbsp;Loses: 0&nbsp;&nbsp;&nbsp;Ties: 0'
-    document.querySelector('.js-Chosen-move').innerHTML = 'You                      Computer'
-    document.querySelector('.js-result').textContent = 'Result'
+    document.querySelector('.js-Chosen-move').innerHTML = '                         '
+    document.querySelector('.js-result').textContent = '結果'
 }

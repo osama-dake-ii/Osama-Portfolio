@@ -1,3 +1,45 @@
+html, body{
+  font-size: 1.1rem !important;
+  font-family: Roboto,arial,sans-serif !important;
+  padding: 6% 5% 3% 5%;
+  text-align: center;
+}
+header{
+  inset: 0 !important;
+}
+section{
+  flex-direction: column;
+}
+
+section h1{
+  font-size: 1.6rem !important;
+  letter-spacing: 0.3rem;
+  /* word-spacing: 0.2rem; */
+  white-space: wrap;
+}
+
+#subpg-img{
+  border: 1px solid black;
+  width: 70%;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width:800px) {
+  section h1{
+    margin-top: 10%;
+    margin-bottom: 7%;
+    font-size: 1.4rem !important;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+    white-space: wrap;
+  }
+}
+
 #pg{
   margin: 100px auto 0px 40%;
   width: 200px;
