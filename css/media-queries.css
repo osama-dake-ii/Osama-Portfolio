@@ -127,10 +127,11 @@
 
   /* contact section fix  */
   #contact .container .back-face{
-    height: 100px !important;
-    width: fit-content !important;
-    line-height: 1.9 !important;
+    height: 90px !important;
+    width: 90% !important;
+    line-height: 2 !important;
     font-size: 0.7rem;
+    letter-spacing: 3px;
   }
 
 }
@@ -246,7 +247,7 @@
   /* contact section fix  */
   #contact .container .back-face{
     height: 100px !important;
-    width: fit-content !important;
+    width: 90% !important;
     line-height: 1.9 !important;
     font-size: 0.7rem;
   }
