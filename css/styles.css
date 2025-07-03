@@ -415,7 +415,7 @@ section h3:not(.x){
   width: 200px;
   height: 80px;
   cursor: pointer;
-
+  -webkit-backface-visibility: hidden; /* important for iOS */
 }
 
 #contact .container .front-face{
