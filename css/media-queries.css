@@ -31,15 +31,16 @@
   }
 
   .banner h1{
-    font: 600 14px Roboto,sans-serif !important;
+    font: 800 1.5rem Roboto,sans-serif !important;
     margin-bottom: -10px !important;
     white-space: wrap;
     word-break: break-all;
+    letter-spacing: 0.7rem;
   }
 
   .banner h5{
-    font: bold 9px Roboto,sans-serif !important;
-    letter-spacing: 1.4rem !important;
+    font: bold 1rem Roboto,sans-serif !important;
+    letter-spacing: 1.2rem !important;
     white-space: wrap;
     word-break: break-all;
   }
@@ -103,6 +104,8 @@
   #portfolio div img{
     width: 50% !important;
     margin-bottom: 10px !important;
+    margin-top: 10px !important;
+    border: 1px solid gray;
   }
 
   /* certificate styles  */
@@ -150,19 +153,20 @@
   display: block;
   }
   .banner h1{
-    font: 600 20px Roboto,sans-serif !important;
+    font: 800 2.2rem Roboto,sans-serif !important;
     margin-bottom: -10px !important;
     white-space: wrap;
     word-break: break-all;
+    letter-spacing: 1.2rem;
   }
 
   .banner h5{
-    font: bold 11px Roboto,sans-serif !important;
-    letter-spacing: 1.8rem !important;
+    font: bold 1.5rem Roboto,sans-serif !important;
+    letter-spacing: 1.4rem !important;
     white-space: wrap;
     word-break: break-all;
-
   }
+
   .container{
     width: 90%;
   } 
@@ -218,6 +222,8 @@
   #portfolio div img{
     width: 50% !important;
     margin-bottom: 10px !important;
+    margin-top: 10px !important;
+    border: 1px solid gray;
   }
 
   /* certificate styles  */

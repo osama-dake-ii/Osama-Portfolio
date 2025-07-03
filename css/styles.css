@@ -284,9 +284,10 @@ section h3:not(.x){
 .project-card{
   padding: 10px 20px;
   background-color: #eee;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   transition: 0.25s ease;
   cursor: pointer;
+  border: 0.1px solid rgb(178, 178, 178);
 }
 .project-card:hover{
   box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.1);
