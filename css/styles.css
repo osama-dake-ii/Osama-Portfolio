@@ -416,6 +416,7 @@ section h3:not(.x){
   height: 80px;
   cursor: pointer;
   -webkit-backface-visibility: hidden; /* important for iOS */
+  word-break: break-all;
 }
 
 #contact .container .front-face{
@@ -453,13 +454,11 @@ section h3:not(.x){
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   -webkit-backface-visibility: hidden;
-
+  flex-direction: column;
 }
 
 #contact .container div.flipped{
   transform: rotatex(180deg);
-  white-space: wrap;
-  overflow: visible;
 }
 
 /* ---- FOOTER */
