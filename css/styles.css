@@ -229,6 +229,10 @@ img{
   text-align: start;
 }
 
+#cv:hover{
+  color: #3d58f3 !important;
+}
+
 
 /* SKILL PART OF THE PAGE */
 .skill h2{
@@ -280,7 +284,7 @@ section h3:not(.x){
   text-transform: capitalize;
 }
 
-/* from here project section   */
+/* from here portfolio section   */
 .project-card{
   padding: 10px 20px;
   background-color: #eee;
@@ -299,13 +303,11 @@ section h3:not(.x){
   line-height: 1;
 
 }
-.project-card img{
-  width: 20% !important;
+#portfolio div img{
+  width: 30% !important;
+  border: 1px solid gray;
   align-self: center !important;
   margin: 0 !important;
-}
-#rps{
-  width: 15% !important;
 }
 
 /* certificate section   */

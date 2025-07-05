@@ -63,7 +63,7 @@ body.disable-scroll {
   width: 43%;
   margin-right: auto;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: flex-start;
   gap: 30px;
   font-size: 0.9rem;
