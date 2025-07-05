@@ -44,7 +44,7 @@ $(document).ready(function () {
 
 function goto(location){
   sessionStorage.setItem("scrollTarget", location);
-  window.location.href = "../index.html";
+  window.location.href = "../";
 }
 
 // profile slide menu and head bar 
