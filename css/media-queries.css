@@ -78,6 +78,12 @@
     align-self: center !important;
     justify-content: center;
   }
+
+  #profile img{
+    width: 120px;
+    height: 120px;
+  }
+
     img{
     width: 80%;
   }
@@ -196,6 +202,12 @@
     align-self: center !important;
     justify-content: center;
   }
+
+  #profile img{
+    width: 130px;
+    height: 130px;
+  }
+
     img{
     width: 80%;
   }
@@ -321,6 +333,12 @@
     align-self: center !important;
     justify-content: center;
   }
+
+  #profile img{
+    width: 150px;
+    height: 150px;
+  }
+
     img{
     width: 80%;
   }
